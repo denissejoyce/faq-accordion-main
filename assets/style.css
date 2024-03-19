@@ -130,12 +130,50 @@ table {
 
 /* end of reset */
 
+@font-face {
+  font-family: worksans;
+  src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+:root {
+  --card-color: hsl(0, 0%, 100%);
+  --background-color: hsl(275, 100%, 97%);
+  --font-primary: hsl(292, 42%, 14%);
+  --font-secondary: hsl(292, 16%, 49%);
+}
+
+body {
+  background-color: var(--background-color);
+  background-image: url(images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  color: var(--font-primary);
+  font-size: 100%;
+  font-family: worksans;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.answer {
+  color: var(--font-secondary);
+  display: none;
+}
+
 .attribution {
   font-size: 11px;
+  margin-top: 10px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  margin: 0 20px;
 }
 
 .sr-only {
@@ -148,4 +186,13 @@ table {
   margin: -1px;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
 }
