@@ -156,9 +156,13 @@ h2 {
   font-weight: 700;
 }
 
+strong {
+  font-weight: 600;
+}
+
 .answer {
   color: var(--font-secondary);
-  display: none;
+  /* display: none; */
 }
 
 .attribution {
