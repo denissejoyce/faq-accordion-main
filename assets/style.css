@@ -140,6 +140,7 @@ table {
   --background-color: hsl(275, 100%, 97%);
   --font-primary: hsl(292, 42%, 14%);
   --font-secondary: hsl(292, 16%, 49%);
+  --hovered-text: hsl(278, 92%, 57%);
 }
 
 body {
@@ -195,6 +196,11 @@ strong {
 
 .hide {
   display: none;
+}
+
+.question:hover {
+  color: var(--hovered-text);
+  cursor: pointer;
 }
 
 .sr-only {
