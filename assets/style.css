@@ -163,7 +163,7 @@ strong {
 
 .answer {
   color: var(--font-secondary);
-  /* display: none; */
+  display: none;
 }
 
 .attribution {
@@ -213,6 +213,21 @@ strong {
   margin: -1px;
   white-space: nowrap;
   overflow: hidden;
+}
+
+/* .question,
+.expand {
+  display: inline;
+} */
+
+.question-clickable {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.question {
+  width: 230px;
 }
 
 .wrapper {
