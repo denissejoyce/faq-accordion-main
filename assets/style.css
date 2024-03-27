@@ -176,8 +176,9 @@ strong {
 }
 
 .card {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   background-color: var(--card-color);
   border-radius: 8px;
   margin: 0 20px;
@@ -198,7 +199,7 @@ strong {
   display: none;
 }
 
-.question:hover {
+.question-clickable:hover {
   color: var(--hovered-text);
   cursor: pointer;
 }
