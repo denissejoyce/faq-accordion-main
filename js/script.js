@@ -20,3 +20,11 @@ for (let i = 0; i < questions.length; i++) {
   //   toExpand.className = "toExpandIcon";
   questions[i].appendChild(toExpand);
 }
+
+const clickableQuestions = document.querySelectorAll(".question-clickable");
+
+for (let i = 0; i < clickableQuestions.length; i++) {
+  clickableQuestions[i].addEventListener("click", function () {
+    document.getElementById("a" + (i + 1)).classList.toggle("hide");
+  });
+}

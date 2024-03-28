@@ -163,7 +163,8 @@ strong {
 
 .answer {
   color: var(--font-secondary);
-  display: none;
+  /* display: none; */
+  width: 250px;
 }
 
 .attribution {
@@ -224,7 +225,7 @@ strong {
 .question-clickable {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .question {
