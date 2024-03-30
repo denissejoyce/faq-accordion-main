@@ -163,8 +163,10 @@ strong {
 
 .answer {
   color: var(--font-secondary);
-  /* display: none; */
-  width: 250px;
+  font-size: 90%;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  width: 275px;
 }
 
 .attribution {
@@ -220,11 +222,23 @@ strong {
 .question-clickable {
   display: flex;
   align-items: center;
-  gap: 15px;
+  /* gap: 15px; */
 }
 
 .question {
   width: 230px;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid var(--background-color);
+  padding: 15px;
+}
+
+.inner-wrapper:last-of-type {
+  border: none;
 }
 
 .wrapper {
