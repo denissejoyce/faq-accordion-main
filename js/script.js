@@ -19,6 +19,9 @@ for (let i = 0; i < clickableQuestions.length; i++) {
   clickableQuestions[i].addEventListener("click", function () {
     const answer = document.getElementById("a" + (i + 1));
     answer.classList.toggle("hide");
+    // setTimeout(() => {
+    //   answer.classList.toggle("hide");
+    // }, 1000);
     if (answer.classList.contains("hide")) {
       document
         .getElementById("icon-" + (i + 1))

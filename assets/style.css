@@ -166,7 +166,10 @@ strong {
   font-size: 90%;
   letter-spacing: 0.3px;
   line-height: 1.2;
-  width: 275px;
+  width: 230px;
+  height: 0;
+  overflow: hidden;
+  transition: 2s ease;
 }
 
 .attribution {
@@ -199,7 +202,13 @@ strong {
 }
 
 .hide {
-  display: none;
+  height: 150px;
+  overflow: hidden;
+  /* width: 230px; */
+  /* height: 0;
+  /* transition: max-height 5s linear; */
+  /* transform: translateY(20px); */
+  /* overflow: hidden; */
 }
 
 .question-clickable:hover {
