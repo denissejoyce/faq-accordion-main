@@ -169,7 +169,7 @@ strong {
   width: 230px;
   height: 0;
   overflow: hidden;
-  transition: 2s ease;
+  transition: 1s ease;
 }
 
 .attribution {
@@ -201,14 +201,15 @@ strong {
   width: 20px;
 }
 
-.hide {
-  height: 150px;
+/* open height 150px; */
+.open {
+  height: 145px;
   overflow: hidden;
-  /* width: 230px; */
-  /* height: 0;
-  /* transition: max-height 5s linear; */
-  /* transform: translateY(20px); */
-  /* overflow: hidden; */
+}
+
+.answer .open {
+  height: 145px;
+  overflow: hidden;
 }
 
 .question-clickable:hover {
@@ -257,4 +258,16 @@ strong {
   justify-content: center;
   min-height: 100vh;
   min-height: 100svh;
+}
+
+@media screen and (min-width: 375.2px) {
+  body {
+    background-size: 100%;
+  }
+}
+
+@media screen and (min-width: 445.2px) {
+  body {
+    background-size: 1500px 300px;
+  }
 }
