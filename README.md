@@ -4,7 +4,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- [Live Site URL](silly-sfogliatella-31df70m)
+- [Live Site URL](https://silly-sfogliatella-31df70.netlify.app)
 
 ### Built with
 
