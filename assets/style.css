@@ -173,7 +173,7 @@ strong {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.688rem;
   margin-top: 10px;
   text-align: center;
 }
@@ -267,6 +267,15 @@ strong {
   body {
     background-size: 100%;
   }
+  .answer {
+    width: 100%;
+  }
+  .open {
+    height: 90px;
+  }
+  .answer .open {
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 510.2px) {
@@ -276,15 +285,6 @@ strong {
   }
   .card {
     width: 25.6rem;
-  }
-  .answer {
-    width: 100%;
-  }
-  .open {
-    height: 90px;
-  }
-  .answer .open {
-    height: 100%;
   }
 }
 
