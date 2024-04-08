@@ -208,7 +208,8 @@ strong {
 }
 
 .answer .open {
-  height: 145px;
+  /* height: 145px; */
+  height: 100%;
   overflow: hidden;
 }
 
@@ -233,10 +234,12 @@ strong {
   display: flex;
   align-items: center;
   /* gap: 15px; */
+  justify-content: space-between;
 }
 
 .question {
-  width: 230px;
+  /* width: 230px; */
+  width: 85%;
 }
 
 .inner-wrapper {
@@ -271,11 +274,27 @@ strong {
     background-image: url(images/background-pattern-desktop.svg);
     background-size: 270%;
   }
+  .card {
+    width: 25.6rem;
+  }
+  .answer {
+    width: 100%;
+  }
+  .open {
+    height: 90px;
+  }
+  .answer .open {
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 570.2px) {
   body {
     background-size: auto 335px;
+  }
+
+  .card {
+    width: 30rem;
   }
 }
 
