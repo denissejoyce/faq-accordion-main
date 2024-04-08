@@ -266,8 +266,21 @@ strong {
   }
 }
 
-@media screen and (min-width: 445.2px) {
+@media screen and (min-width: 510.2px) {
   body {
-    background-size: 1500px 300px;
+    background-image: url(images/background-pattern-desktop.svg);
+    background-size: 270%;
+  }
+}
+
+@media screen and (min-width: 570.2px) {
+  body {
+    background-size: auto 335px;
+  }
+}
+
+@media screen and (min-width: 1505.2px) {
+  body {
+    background-size: contain;
   }
 }
