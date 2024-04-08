@@ -271,7 +271,7 @@ strong {
     width: 100%;
   }
   .open {
-    height: 90px;
+    height: 100px;
   }
   .answer .open {
     height: 100%;
@@ -285,6 +285,9 @@ strong {
   }
   .card {
     width: 25.6rem;
+  }
+  .open {
+    height: 90px;
   }
 }
 
