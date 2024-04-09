@@ -143,6 +143,10 @@ table {
   --hovered-text: hsl(278, 92%, 57%);
 }
 
+main {
+  padding-top: 25px;
+}
+
 body {
   background-color: var(--background-color);
   background-image: url(images/background-pattern-mobile.svg);
