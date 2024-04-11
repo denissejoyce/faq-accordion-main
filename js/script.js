@@ -1,6 +1,7 @@
 "use strict";
 
 const questions = document.querySelectorAll(".expand");
+const clickableQuestions = document.querySelectorAll(".question-clickable");
 
 for (let i = 0; i < questions.length; i++) {
   const toExpand = document.createElement("img");
@@ -13,15 +14,10 @@ for (let i = 0; i < questions.length; i++) {
   questions[i].appendChild(toExpand);
 }
 
-const clickableQuestions = document.querySelectorAll(".question-clickable");
-
 for (let i = 0; i < clickableQuestions.length; i++) {
   clickableQuestions[i].addEventListener("click", function () {
     const answer = document.getElementById("a" + (i + 1));
     answer.classList.toggle("open");
-    // setTimeout(() => {
-    //   answer.classList.toggle("hide");
-    // }, 1000);
     if (answer.classList.contains("open")) {
       document
         .getElementById("icon-" + (i + 1))

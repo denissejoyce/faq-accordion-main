@@ -144,7 +144,7 @@ table {
 }
 
 main {
-  padding-top: 1.563rem;
+  padding-top: 1.563em;
 }
 
 body {
@@ -170,7 +170,6 @@ strong {
   font-size: 90%;
   letter-spacing: 0.3px;
   line-height: 1.2;
-  /* width: 230px; */
   width: 100%;
   height: 0;
   overflow: hidden;
@@ -179,7 +178,7 @@ strong {
 
 .attribution {
   font-size: 0.688rem;
-  margin-top: 10px;
+  margin-top: 0.625em;
   text-align: center;
 }
 .attribution a {
@@ -189,18 +188,19 @@ strong {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625em;
   background-color: var(--card-color);
   border-radius: 8px;
-  margin: 0 20px;
-  padding: 30px 20px 20px 20px;
+  margin: 0 1.25em;
+  padding: 1.875em 1.25em 1.25em 1.25em;
+  /* padding: 30px 20px 20px 20px; */
   transition: 1s ease;
 }
 
 .card-title {
   display: flex;
-  gap: 15px;
-  margin-bottom: 25px;
+  gap: 0.938em;
+  margin-bottom: 1.563em;
 }
 
 .card-title > img {
@@ -239,21 +239,19 @@ strong {
 .question-clickable {
   display: flex;
   align-items: center;
-  /* gap: 15px; */
   justify-content: space-between;
 }
 
 .question {
-  /* width: 230px; */
   width: 85%;
 }
 
 .inner-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625em;
   border-bottom: 1px solid var(--background-color);
-  padding: 15px;
+  padding: 0.938em;
 }
 
 .inner-wrapper:last-of-type {
@@ -273,9 +271,6 @@ strong {
   body {
     background-size: 100%;
   }
-  /* .answer {
-    width: 100%;
-  } */
   .open {
     height: 100px;
   }
@@ -284,7 +279,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 510.2px) {
+@media screen and (min-width: 31.888em) {
   body {
     background-image: url(images/background-pattern-desktop.svg);
     background-size: 270%;
@@ -297,7 +292,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 570.2px) {
+@media screen and (min-width: 35.638em) {
   body {
     background-size: auto 335px;
   }
@@ -307,7 +302,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 1505.2px) {
+@media screen and (min-width: 94.075em) {
   body {
     background-size: contain;
   }
